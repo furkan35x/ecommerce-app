@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ürünler</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Ürün Yönetimi</h1>
+    <button id="logoutBtn">Çıkış Yap</button>
+  </header>
+  <main>
+    <section id="productSection">
+      <h2>Ürünler</h2>
+      <ul id="productList"></ul>
+    </section>
+    <section id="addProductSection">
+      <h2>Ürün Ekle</h2>
+      <form id="addProductForm">
+        <input type="text" id="productName" placeholder="Ürün Adı" required>
+        <input type="number" id="productPrice" placeholder="Ürün Fiyatı" required>
+        <button type="submit">Ekle</button>
+      </form>
+    </section>
+  </main>
+  <script src="js/products.js"></script>
+</body>
+</html>
